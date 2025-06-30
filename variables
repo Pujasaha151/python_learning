@@ -1,0 +1,13 @@
+
+a=5
+
+print(a)
+a=10
+print(a)
+type(a)
+a=a+a
+print(a)#ans is 20.
+my_income=100
+tax_rate=0.1
+my_tax= my_income*tax_rate
+print("so that my Tax is=",my_tax)

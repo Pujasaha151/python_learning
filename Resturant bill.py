@@ -1,0 +1,15 @@
+text = "Puja's Resturant Bill"
+print("--"*80)
+bold_text = "\033[1m" + text + "\033[0m"
+print(bold_text.center(80))
+print("--"*80)
+Item1= ("Burger",120)
+Item2= ("Chicken",520)
+Item3= ("Coke",20)
+print('Item1:',Item1[0],"  Price: " ,Item1[1],'TK')
+print('Item2:',Item2[0]," Price: " ,Item2[1] ,'TK')
+print('Item3:',Item1[0],"  Price: " ,Item3[1] ,'TK')
+print("--"*80)
+print ('Total bill:        ' ,Item1[1]+Item2[1]+Item3[1],'TK' )
+print("--"*80)
+print ('Thank you! Please Visit again')

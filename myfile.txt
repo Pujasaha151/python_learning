@@ -1,0 +1,8 @@
+ hey i am from file mytxt
+  hello you am checking each line
+  line
+  read
+  henten
+  math
+  python
+  class
