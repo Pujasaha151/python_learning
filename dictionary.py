@@ -17,7 +17,7 @@ print(dic.items())
 for key,val in dic.items():
     print(key,val)
 #oparetions
-tel = {'jack': 4098, 'sape': 4139}
+tel = {'jack': 408, 'sape': 4139}
 # adding
 tel['puja']=5044
 print(tel)
