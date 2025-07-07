@@ -8,8 +8,8 @@ a=Person()
 b=Person()
 c=Person()
 print(a.name,a.occupation)
-a.name='JO'
-a.occupation='bekar'
+a.name='JOY'
+a.occupation='bekarr'
 b.name='Anup'
 b.occupation='business'
 print(a.name,a.occupation)
