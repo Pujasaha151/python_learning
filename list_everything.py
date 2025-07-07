@@ -74,5 +74,9 @@ print(marks)
 # to zip to list
 questions = ['name', 'quest', 'favorite color']
 answers = ['lancelot', 'the holy grail', 'blue']
+zipped_data = zip(questions, answers)
+
+# Convert the zip object to a list to see the contents
+print(list(zipped_data))
 for q, a in zip(questions, answers):
     print('What is your {0}?  It is {1}.'.format(q, a))

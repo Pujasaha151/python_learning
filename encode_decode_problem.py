@@ -1,8 +1,6 @@
 import random
 from ctypes.wintypes import tagMSG
-
 encode=input("enter a sms u want to send->")
-
 x=len(encode)
 print(x)
 if x>=3:
@@ -16,14 +14,24 @@ if x>=3:
   st1='YDEGXEUHC'
   ran=random.sample(st,3)
   ran1 = random.sample(st1, 3)
-  print(ran)
   new=ran+temp+ran1
   print(new)
-  new.reverse()
+  new.reverse() 
   print(new)
-
 sms="".join(new)
 print(sms)
+# decoder part
+new.reverse()
+print(new)
+then=new[3:-3]
+print(then)
+x = then.pop()
+print(then)
+then.insert(0,x)
+print(then)
+decode="".join(then)
+print("the received sms is :",decode)
+
 
 
 

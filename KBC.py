@@ -7,23 +7,22 @@ q=[
 
 '5. What symbol is used for comments in Python?']
 a=["stack","def","cpu",'hesh']
+no_ques=len(q)
 count=0
-for i in q:
-    print(i)
-print("\n")
-l=len(q)
-for j in range(1,l+1):
- ans=(input(f"Ans{j+1}:"))
-'''
-if ans==5:
-    count+=10
-elif 
-else:
-    print("the ans is wrong")
-print("the money you are taking home is ",count)
+for question_index in range(no_ques)  :
+    ans = (input(f"{q[question_index]},\nAns:"))
 
-#for i in q:
-   # ans=input()
-  #if
-    #print(i)'''
+    if ans == a[question_index]:
+     count=count+10
+     print("for this ques u get:",count)
+    else:
+        print("the ans is wrong ")
+        break
+print("You will take money ,",count,"taka")
+
+
+
+
+
+
 
